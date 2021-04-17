@@ -12,5 +12,5 @@ app.get('*', function(req,res) {
   // Replace the '/dist/<to_your_project_name>/index.html'
   res.sendFile(path.join(__dirname + '/dist/open-financial-tech-website/index.html'));
 });
-// Start the app by listening on the default Heroku port
-app.listen( process.env.PORT || 8080);
+
+app.listen( process.env.PORT || 8080);// Start the app by listening on the de  fault Heroku port
