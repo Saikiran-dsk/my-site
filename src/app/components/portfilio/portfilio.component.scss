@@ -56,3 +56,14 @@ h3{
         color: white;
     }
 }
+
+.durationInline{
+    text-align: right;
+    display:inline-flex;
+    min-width:175px;
+}
+.durationInlineLeft{
+    text-align: left;
+    display: inline-flex;
+    min-width: 175px;
+}
