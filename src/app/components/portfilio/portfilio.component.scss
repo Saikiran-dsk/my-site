@@ -1,0 +1,49 @@
+.bg-primary{
+    background: #97d2e9 !important;
+}
+.bg-primary:hover{
+    transition: all 0.7s;
+    background: #44b3dd !important;
+    box-shadow: 5px 15px 25px #797676;
+}
+.viewMore{
+    background: white;
+}
+.card{
+    margin: 3%;
+    max-width: 21rem;
+}
+.no-gutters{
+    justify-content: center;
+}
+#portfolio{
+    background: #7cceed;
+    // border-top:1px solid rgb(173, 168, 168) ;
+}
+.boxShadow{
+    box-shadow: 1px 0px 14px #999595;
+    padding: 3% 7%;
+    border-radius: 25px;
+    margin: 5% 3%;
+}
+.modal-dialog{
+    max-width: 800px;
+}
+h3{
+    text-align: center;
+}
+.duration{
+    background: #e7dfdf;
+    padding: 1% 12%;
+    border-radius: 11px;
+}
+.durationBody{
+    justify-content: space-between;
+}
+.pro{
+   padding-top: 3%;
+   color: white;
+}
+.divider{
+    border-color:white;
+}

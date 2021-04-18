@@ -62,9 +62,11 @@
 button{
   outline: none;
 }
+a{
+  color: white !important;
+}
 .changeCOlor{
-  color: black;
-  background: white;
+  background: #0491c6;
   // transition: transform 0.3s;
   transition: height 0.7s;
 }

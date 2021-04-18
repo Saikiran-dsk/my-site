@@ -2,5 +2,18 @@
     justify-content: center;
     .card{
         margin: 2% 3% 2% 3%;
+        box-shadow: 1px 0px 14px #999595;
+        padding: 1% 1%;
+        border-radius: 6px;
     }
+    .card:hover{
+            transition: all 0.7s;
+            box-shadow: 5px 15px 25px #797676;
+    }
+}
+.boxShadow{
+    box-shadow: 1px 0px 14px #999595;
+    padding: 3% 7%;
+    border-radius: 25px;
+    margin: 5% 3%;
 }
