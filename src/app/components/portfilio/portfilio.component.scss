@@ -34,8 +34,11 @@ h3{
 }
 .duration{
     background: #e7dfdf;
-    padding: 1% 12%;
+    padding: 1% 0%;
     border-radius: 11px;
+    h5{
+        padding-left: 9%;
+    }
 }
 .durationBody{
     justify-content: space-between;
