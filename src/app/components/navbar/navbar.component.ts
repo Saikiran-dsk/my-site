@@ -6,26 +6,26 @@ import { Component, HostListener, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  changeHeaderColor:boolean = false;
-  collapseTheHeader:boolean = false;
+  changeHeaderColor: boolean = false;
+  collapseTheHeader: boolean = false;
   constructor() { }
 
   ngOnInit() {
   }
-  collapseHeader(val){
-    if(!this.collapseTheHeader && val == 'true'){
+  collapseHeader(val) {
+    if (!this.collapseTheHeader && val == 'true') {
       this.collapseTheHeader = true;
-    }else{
+    } else {
       this.collapseTheHeader = false;
     }
-    
+
   }
   @HostListener('window:scroll', ['$event']) getScrollHeight(event) {
     this.collapseHeader('');
-    if(window.pageYOffset > 5){
-     this.changeHeaderColor = true;
-    }else{
-      this.changeHeaderColor  = false;
+    if (window.pageYOffset > 5) {
+      this.changeHeaderColor = true;
+    } else {
+      this.changeHeaderColor = false;
     }
   }
   @HostListener('window:resize', ['$event'])
@@ -33,5 +33,12 @@ export class NavbarComponent implements OnInit {
     this.collapseHeader('');
     event.target.innerWidth;
   }
-  
+
+  scrollTop() {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
 }

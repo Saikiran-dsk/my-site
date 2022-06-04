@@ -75,3 +75,13 @@ a{
   background: white;
   color: black;
 }
+.navbar-nav{
+  .nav-item{
+    transition: all 0.5s;
+    text-align: centera;
+  }
+  .nav-item:hover{
+    background: #70b2e1;
+    border-radius: 50%;
+  }
+}
