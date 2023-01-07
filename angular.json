@@ -50,6 +50,12 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+              "index": 
+                {
+                  "output": "src/environments/environment.ts",
+                  "input": "src/environments/environment.prod.ts"
+                }
+              ,
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
