@@ -1,15 +1,15 @@
-<footer class="bg-light py-5">
+<footer class="bg-light py-5" *ngIf="data">
   <div class="container">
     <div class="small text-center text-muted">
-      Copyright © DSK
-      <a href="https://www.instagram.com/saikiran_11421/?next=%2F" target="_blank"
+       {{data.description}}
+      <a href={{data.instagram}} target="_blank"
         ><i class="fa fa-instagram"></i
       ></a>
-      <a href="https://www.facebook.com/people/Saikiran-Duddukuri/100086939623790/" target="_blank"
+      <a href={{data.facebook}} target="_blank"
         ><i class="fa fa-facebook"></i
       ></a>
       <a
-        href="https://www.linkedin.com/in/saikiran-duddukuri-378ba81b7/"
+        href={{data.linkedin}}
         target="_blank"
         ><i class="fa fa-linkedin"></i
       ></a>
