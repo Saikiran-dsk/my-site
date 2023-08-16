@@ -27,20 +27,20 @@ export const userData = {
     },
  ] ,
  contactData:{
-    titleResume:"You can Download My resume here...!",
-    link:'assets/downloads/saikiran-duddukuri-ANGULARX-DEV.pdf',
+    titleResume:"You can download my resume here...!",
+    link:'assets/downloads/saikiran-duddukuri-ANGULARX-1.pdf',
     downloadName:"saikiran-duddukuri-ANGULARX-DEV.pdf",
     buttonText:" Download Now!",
     title:"Let's Get In Touch!",
-    number:"+91 8185059907",
-    email:"duddukurisai63@gmail.com",
+    number:"+91 7702859907",
+    email:"saikiranduddukuri03@gmail.com",
     subTitle:" Ready to start your next project with me? I'm waiting for yourresponse....",
     emailName:"saikiran.resume.pdf"
  },
  footer:{
     description:"Copyright © DSK ",
-    facebook:"https://www.facebook.com/people/Saikiran-Duddukuri/100086939623790/",
+    facebook:"https://m.facebook.com/people/Saikiran-Duddukuri/100086939623790/",
     instagram:"https://www.instagram.com/saikiran_11421/?next=%2F",
-    linkedin:"https://www.linkedin.com/in/saikiran-duddukuri-378ba81b7/"
+    linkedin:"https://www.linkedin.com/in/saikiran-duddukuri-a68bb8282/"
  }
 }
