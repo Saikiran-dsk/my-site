@@ -17,3 +17,21 @@
     border-radius: 25px;
     margin: 5% 3%;
 }
+.mat-tab-info{
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+}
+hr.divider{
+    border-color: #7cceed;  
+}
+
+.rating-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    i{
+        color: #52afec;
+        margin-left: 20px;
+    }
+}

@@ -11,6 +11,9 @@ import { ServicesComponent } from './components/services/services.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { PortfilioComponent } from './components/portfilio/portfilio.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import {MatTabsModule} from '@angular/material/tabs';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -21,12 +24,24 @@ import { FooterComponent } from './components/footer/footer.component';
     ServicesComponent,
     ContactUsComponent,
     PortfilioComponent,
-    FooterComponent
+    FooterComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTabsModule,
+    NgCircleProgressModule.forRoot({
+      // set defaults here
+      radius: 100,
+      outerStrokeWidth: 16,
+      innerStrokeWidth: 8,
+      outerStrokeColor: "#78C000",
+      innerStrokeColor: "#C7E596",
+      animationDuration: 300,
+      
+    }) 
   ],
   providers: [],
   bootstrap: [AppComponent]

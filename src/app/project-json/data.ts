@@ -7,7 +7,7 @@ export const userData = {
  stack:[
     {
         name:'Angular',
-        description:"I worked more than 4.8 years on Angular..!. Worked on Angular7,8,9,10 and 11 and also Version 1.0",
+        description:"I worked more than 5 years on Angular..!. Worked on Angular7,8,9,10 and 11 and also Version 1.0",
         image:'assets/angular.jpg'
     },
     {
@@ -17,7 +17,7 @@ export const userData = {
     },
     {
         name:'Frontend Base Stack',
-        description:"I worked more than 4.8 years on These tech stack..!. Having a deep Knowledge on each technology",
+        description:"I worked more than 5    years on These tech stack..!. Having a deep Knowledge on each technology",
         image:'assets/frontEnd.jfif'
     },
     {
@@ -34,9 +34,47 @@ export const userData = {
     title:"Let's Get In Touch!",
     number:"+91 7702859907",
     email:"saikiranduddukuri03@gmail.com",
-    subTitle:" Ready to start your next project with me? I'm waiting for yourresponse....",
+    subTitle:" Ready to start your next project with me? I'm waiting for your response....",
     emailName:"saikiran.resume.pdf"
  },
+ projects:[
+  {
+    title:'Technical staff of Angular',
+    company:'TechMojo Solutions Private Limited',
+    location:'Hyderabad, Telangana, India',
+    dicsription:'lorem pant lorem pant lorem pant lorem pantlorem pant pant lorem pantlorem pant pant lorem pantlorem pant pant lorem pantlorem pant',
+    duration:'March 2022 - Present'
+  },
+  {
+    title:'Senior Software Engineer',
+    company:'BlueRose Technologies Private Limited',
+    location:'Hyderabad, Telangana, India',
+    dicsription:'lorem pant lorem pant lorem pant lorem pantlorem pant pant lorem pantlorem pant pant lorem pantlorem pant pant lorem pantlorem pant',
+    duration:'Aug 2021 - Feb 2022'
+
+  },
+  {
+    title:'Senior Software Developer',
+    company:'Utthunga Technologies Private Limited',
+    location:'Bengaluru, Karnataka, India',
+    dicsription:'lorem pant lorem pant lorem pant lorem pantlorem pant pant lorem pantlorem pant pant lorem pantlorem pant pant lorem pantlorem pant',
+    duration:'Mar 2021 - Aug 2021'
+  },
+  {
+    title:'Senior Software Developer',
+    company:'IgluLabs Private Limited',
+    location:'Bengaluru, Karnataka, India',
+    dicsription:'lorem pant lorem pant lorem pant lorem pantlorem pant pant lorem pantlorem pant pant lorem pantlorem pant pant lorem pantlorem pant',
+    duration:'Oct 2020 - Feb 2021'
+  },
+  {
+    title:'Software Engineer',
+    company:'Envytee Info Solutions',
+    location:'Hyderabad, Telangana, India',
+    dicsription:'lorem pant lorem pant lorem pant lorem pantlorem pant pant lorem pantlorem pant pant lorem pantlorem pant pant lorem pantlorem pant',
+    duration:'Aug 2018 - Oct 2020'
+  },
+ ],
  footer:{
     description:"Copyright © DSK ",
     facebook:"https://m.facebook.com/people/Saikiran-Duddukuri/100086939623790/",

@@ -1,0 +1,24 @@
+<section class="site-section " id="section-resume">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-5">
+                <div class="section-heading text-center">
+                    <h2 class="text-center mt-0">My Resume</h2>
+                    <hr class="divider my-4" />
+                </div>
+            </div>
+            <ng-container *ngIf="projectsData && projectsData.length">
+                <div class="col-12" *ngFor="let pro of projectsData">
+                    <div class="resume-item mb-4" >
+                        <span class="date"><span><i class="fa fa-calendar-o" aria-hidden="true"></i></span> {{pro.duration}}</span>
+                        <h3> <span></span>{{pro.title}}</h3>
+                        <p> <span><i class="fa fa-building-o" aria-hidden="true"></i></span>{{pro.company}}</p>
+                        <span class="school description" *ngIf="pro.dicsription"><span><i class="fa fa-info-circle" aria-hidden="true"></i></span> {{pro.dicsription}}</span>
+                        <span class="school"> <span><i class="fa fa-location-arrow" aria-hidden="true"></i></span>{{pro.location}}</span>
+                    </div>
+                </div>
+            </ng-container>
+           
+        </div>
+    </div>
+</section>
