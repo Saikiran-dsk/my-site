@@ -41,4 +41,5 @@ export class NavbarComponent implements OnInit {
       behavior: 'smooth'
     });
   }
+  
 }

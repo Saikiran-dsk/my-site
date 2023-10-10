@@ -3,7 +3,7 @@
     <div class="container">
         <h2 class="text-center mt-0">My Stack</h2>
         <hr class="divider my-4" />
-        <div class="row setCards">
+        <!-- <div class="row setCards">
           <mat-tab-group>
             <mat-tab label="Angular">
               <div class="mat-tab-info">
@@ -115,7 +115,7 @@
             </div></mat-tab>
           </mat-tab-group>
           
-                <!-- <div class="card" style="width: 18rem;" *ngFor="let stack of data.stack">
+                 <div class="card" style="width: 18rem;" *ngFor="let stack of data.stack">
                     <img src={{stack.image}} class="card-img-top" alt={{stack.name}}>
                     <div class="card-body">
                       <h5 class="card-title">{{stack.name}}</h5>
@@ -145,8 +145,36 @@
                       <p class="card-text">I worked 1 year on it!.
                         Worked on a project using MEAN stack from scrath and completed three phases of it.</p>
                     </div>
-                  </div> -->
+                  </div> 
           
+        </div> -->
+
+
+
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col mb-5" *ngFor="let lang of data">
+            <div class="card h-80" [ngClass]="lang.padding ? 'card-padding' : '' ">
+             <div class="tech-img">
+              <img src={{lang.image}} class="card-img-top" alt="Skyscrapers"/>
+             </div>
+             
+              <div class="card-body">
+                <h5 class="card-title">{{lang.title}}</h5>
+                <p class="card-text">
+                {{lang.discription}}
+                  
+                </p>
+                <h3 style="font-size: inherit;">Experience : {{lang.years}}</h3>
+              </div>
+              <div class="card-footer">
+                  <ng-container *ngFor="let item of [].constructor(lang.rating); let i = index">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </ng-container>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 </section>

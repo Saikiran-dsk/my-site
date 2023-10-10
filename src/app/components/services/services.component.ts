@@ -10,7 +10,7 @@ export class ServicesComponent implements OnInit {
 
   data:any;
   constructor() { 
-    this.data = userData;
+    this.data = userData.tech;
   }
 
   ngOnInit() {

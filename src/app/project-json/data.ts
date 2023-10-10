@@ -80,5 +80,80 @@ export const userData = {
     facebook:"https://m.facebook.com/people/Saikiran-Duddukuri/100086939623790/",
     instagram:"https://www.instagram.com/saikiran_11421/?next=%2F",
     linkedin:"https://www.linkedin.com/in/saikiran-duddukuri-a68bb8282/"
- }
+ },
+ tech:[
+    {
+        name:'Angular',
+        image:'../../../assets/tech/angular.png',
+        title:'Angular Expert',
+        discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        years:'5 years',
+        rating:5,
+        padding:true
+    },
+    {
+        name:'React',
+        image:'../../../assets/tech/react.png',
+        title:'React developer',
+        discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        years:'2 years',
+        rating:4,
+        padding:true
+    },
+    {
+        name:'Javascript',
+        image:'../../../assets/tech/javascript.png',
+        title:'Javascript developer',
+        discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        years:'5 years',
+        rating:4,
+        padding:true
+    },
+    {
+        name:'Typescript',
+        image:'../../../assets/tech/typescript.png',
+        title:'typescript developer',
+        discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        years:'5 years',
+        rating:4,
+        padding:true
+    },
+    {
+        name:'Jquery',
+        image:'../../../assets/tech/jquery.png',
+        title:'Jquery developer',
+        discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        years:'3 years',
+        rating:4,
+        padding:true
+    },
+    {
+        name:'HTML',
+        image:'../../../assets/tech/html.png',
+        title:'Html developer',
+        discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        years:'5 years',
+        rating:5,
+        padding:true
+    },
+    {
+        name:'Css',
+        image:'../../../assets/tech/css.png',
+        title:'Css',
+        discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        years:'5 years',
+        rating:4,
+        padding:true
+    },
+    {
+        name:'Spring boot ',
+        image:'../../../assets/tech/springboot.jpg',
+        title:'Spring boot developer',
+        discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        years:'6 months',
+        rating:3,
+        padding:false
+    },
+  
+ ]
 }
