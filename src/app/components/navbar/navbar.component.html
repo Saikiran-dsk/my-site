@@ -7,7 +7,7 @@
     <a class="navbar-brand js-scroll-trigger" (click)="scrollTop()"
       >Saikiran Duddukuri</a
     >
-    <button
+    <button id="collapse-button"
       class="navbar-toggler navbar-toggler-right"
       type="button"
       data-toggle="collapse"
@@ -21,16 +21,16 @@
     <div class="navbar-collapse collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto my-2 my-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#about" (click)="closeMenu()">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#services">Skills</a>
+          <a class="nav-link" href="#services" (click)="closeMenu()">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#section-resume">Portfolio</a>
+          <a class="nav-link" href="#time-line-view" (click)="closeMenu()">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#contact" (click)="closeMenu()">Contact</a>
         </li>
       </ul>
     </div>

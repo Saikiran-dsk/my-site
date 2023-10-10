@@ -15,5 +15,7 @@ export class ServicesComponent implements OnInit {
 
   ngOnInit() {
   }
-
+getWidth(lang){
+  return 'width:'+lang.percentage+'%;'
+}
 }

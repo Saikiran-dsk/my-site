@@ -9975,6 +9975,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   html {
     width: 100%;
     height: 100%;
+    font-family: 'FontAwesome';
   }
   
   hr.divider {
@@ -10141,3 +10142,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   html {
     scroll-behavior: smooth;
   }
+  mat-tab-body  div{
+    overflow-x: hidden !important;
+}
+// .mat-mdc-tab-group.mat-background-primary, .mat-mdc-tab-nav-bar.mat-background-primary
+
+.mat-ink-bar,.mat-mdc-tab-labels {
+  background-color: #7cceed;
+}

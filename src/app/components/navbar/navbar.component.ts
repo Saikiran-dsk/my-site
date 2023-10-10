@@ -11,6 +11,9 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    if(window.innerWidth < 993){
+      this.collapseTheHeader = true;
+    }
   }
   collapseHeader(val) {
     if (!this.collapseTheHeader && val == 'true') {
@@ -22,7 +25,7 @@ export class NavbarComponent implements OnInit {
   }
   @HostListener('window:scroll', ['$event']) getScrollHeight(event) {
     this.collapseHeader('');
-    if (window.pageYOffset > 5) {
+    if (window.pageYOffset > 5 && window.innerWidth > 993 || window.innerWidth < 993) {
       this.changeHeaderColor = true;
     } else {
       this.changeHeaderColor = false;
@@ -42,4 +45,10 @@ export class NavbarComponent implements OnInit {
     });
   }
   
+  closeMenu(){
+    if(window.innerWidth < 993){
+      document.getElementById('collapse-button').click()
+    }
+    
+  }
 }

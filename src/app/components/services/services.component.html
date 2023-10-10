@@ -1,9 +1,8 @@
-
 <section class="page-section" id="services" *ngIf="data">
-    <div class="container">
-        <h2 class="text-center mt-0">My Stack</h2>
-        <hr class="divider my-4" />
-        <!-- <div class="row setCards">
+  <div class="container">
+    <h2 class="text-center mt-0">My Stack</h2>
+    <hr class="divider my-4" />
+    <!-- <div class="row setCards">
           <mat-tab-group>
             <mat-tab label="Angular">
               <div class="mat-tab-info">
@@ -122,7 +121,7 @@
                       <p class="card-text">{{stack.description}}</p>
                     </div>
                   </div> -->
-                  <!-- <div class="card" style="width: 18rem;">
+    <!-- <div class="card" style="width: 18rem;">
                     <img src="assets/react.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">React JS</h5>
@@ -148,33 +147,71 @@
                   </div> 
           
         </div> -->
+  
 
-
-
-
-
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+    <!-- <mat-tab-group [backgroundColor]="'#000000'" mat-stretch-tabs class="example-stretched-tabs mat-elevation-z4">
+      <mat-tab label="Metrics"> -->
+        <!-- <div class="progress-bars-data">
+          <div class="progress-container" *ngFor="let lang of data">
+            <h1>{{lang.name}}</h1>
+            <div class="progress {{lang.class}}">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" [style]="getWidth(lang)"
+                aria-valuenow="lang.percentage" aria-valuemin="0" aria-valuemax="100">{{lang.percentage}}%</div>
+            </div>
+          </div>
+        </div> -->
+      <!-- </mat-tab> -->
+      <!-- <mat-tab label="Cards">
+        <div class="row row-cols-1 row-cols-md-3 g-4 cards-data">
           <div class="col mb-5" *ngFor="let lang of data">
             <div class="card h-80" [ngClass]="lang.padding ? 'card-padding' : '' ">
-             <div class="tech-img">
-              <img src={{lang.image}} class="card-img-top" alt="Skyscrapers"/>
-             </div>
-             
+              <div class="tech-img">
+                <img src={{lang.image}} class="card-img-top" alt="Skyscrapers" />
+              </div>
+
               <div class="card-body">
                 <h5 class="card-title">{{lang.title}}</h5>
                 <p class="card-text">
-                {{lang.discription}}
-                  
+                  {{lang.discription}}
+
                 </p>
                 <h3 style="font-size: inherit;">Experience : {{lang.years}}</h3>
               </div>
               <div class="card-footer">
-                  <ng-container *ngFor="let item of [].constructor(lang.rating); let i = index">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                  </ng-container>
+                <ng-container *ngFor="let item of [].constructor(lang.rating); let i = index">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </ng-container>
               </div>
             </div>
           </div>
         </div>
+      </mat-tab>
+    </mat-tab-group> -->
+    
+
+
+    <div class="row">
+      <ng-container  *ngFor="let lang of data">
+        <div class="col-md-4 col-sm-12 d-none d-lg-block text-center stack-box">
+          <img class="rounded-circle shadow-1-strong mb-4"
+          src={{lang.image}} alt="avatar"
+            style="width: 150px;" />
+          <h5 class="mb-3">{{lang.name}}</h5>
+          <p>Photographer</p>
+          <p class="text-muted">
+            <i class="fas fa-quote-left pe-2"></i>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+            praesentium voluptatum deleniti atque corrupti.
+          </p>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+            <ng-container *ngFor="let item of [].constructor(lang.rating); let i = index">
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </ng-container>
+          </ul>
+        </div>
+      </ng-container>
+     
+     
     </div>
+  </div>
 </section>

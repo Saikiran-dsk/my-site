@@ -25,10 +25,36 @@
     text-align: center;
     overflow: hidden;
     img{
-        width: auto;
-        height: 200px;
+        width: 60%;
+        height: 150px;
     }
 }
 .card-padding{
     padding: 18px 0px 0px 0px;
+}
+
+.progress-container{
+    h1{
+        font-size: 20px;
+    }
+    padding: 20px;
+}
+.cards-data,.progress-bars-data{
+   padding: 20px;
+}
+.progress-bar{
+    background-color: #7cceed;
+}
+
+.stack-box {
+    padding-bottom: 50px;
+    img{
+        width: 140px !important;
+        padding: 5px;
+        height: 140px;
+        object-fit: contain;
+    }
+}
+hr.divider{
+    border-color: #7cceed;
 }

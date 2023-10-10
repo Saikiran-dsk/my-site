@@ -89,7 +89,9 @@ export const userData = {
         discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         years:'5 years',
         rating:5,
-        padding:true
+        padding:true,
+        percentage:95,
+        class:''
     },
     {
         name:'React',
@@ -98,7 +100,9 @@ export const userData = {
         discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         years:'2 years',
         rating:4,
-        padding:true
+        padding:true,
+        percentage:70,
+        class:''
     },
     {
         name:'Javascript',
@@ -107,7 +111,9 @@ export const userData = {
         discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         years:'5 years',
         rating:4,
-        padding:true
+        padding:true,
+        percentage:90,
+        class:''
     },
     {
         name:'Typescript',
@@ -116,7 +122,9 @@ export const userData = {
         discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         years:'5 years',
         rating:4,
-        padding:true
+        padding:true,
+        percentage:90,
+        class:''
     },
     {
         name:'Jquery',
@@ -125,7 +133,9 @@ export const userData = {
         discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         years:'3 years',
         rating:4,
-        padding:true
+        padding:true,
+        percentage:80,
+        class:''
     },
     {
         name:'HTML',
@@ -134,7 +144,9 @@ export const userData = {
         discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         years:'5 years',
         rating:5,
-        padding:true
+        padding:true,
+        percentage:90,
+        class:''
     },
     {
         name:'Css',
@@ -143,17 +155,32 @@ export const userData = {
         discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         years:'5 years',
         rating:4,
-        padding:true
+        padding:true,
+        percentage:80,
+        class:''
     },
     {
-        name:'Spring boot ',
-        image:'../../../assets/tech/springboot.jpg',
+        name:'Java',
+        image:'../../../assets/tech/java.png',
         title:'Spring boot developer',
         discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         years:'6 months',
         rating:3,
-        padding:false
+        padding:true,
+        percentage:70,
+        class:''
     },
+    {
+        name:'Spring boot ',
+        image:'../../../assets/tech/spring-boot.png',
+        title:'Spring boot developer',
+        discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        years:'6 months',
+        rating:3,
+        padding:true,
+        percentage:70,
+        class:''
+    }
   
  ]
 }

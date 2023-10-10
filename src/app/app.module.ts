@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { TimelineComponent } from './components/timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     ContactUsComponent,
     PortfilioComponent,
     FooterComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
