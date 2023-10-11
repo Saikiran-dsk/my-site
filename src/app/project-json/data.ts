@@ -128,7 +128,7 @@ export const userData = {
     },
     {
         name:'Jquery',
-        image:'../../../assets/tech/jquery.png',
+        image:'../../../assets/tech/jquery-b.png',
         title:'Jquery developer',
         discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         years:'3 years',

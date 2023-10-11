@@ -1,17 +1,18 @@
-<section class="page-section bg-dark text-white" *ngIf="data">
-  <div class="container text-center">
-    <h2 class="mb-4">{{data.titleResume}}</h2>
-    <a
-      style="background-color: #44b3dd"
-      class="btn btn-light btn-xl"
+<section class="page-section bg-dark text-white container-padding" *ngIf="data">
+  <div class="container resume-container">
+    <div class="col-12 mb-4 col-lg-6 resume-title" >{{data.titleResume}}</div>
+    <div class="col-12 mb-4  col-lg-6 row justify-content-end download-button"> <a
+      class="btn btn-light btn-xl btn-one"
       href={{data.link}}
       download={{data.emailName}}
-    >
+    > 
      {{data.buttonText}}
-    </a>
+    </a></div>
+    <!-- <h2 class=""></h2>  -->
+   
   </div>
 </section>
-<section class="page-section" id="contact">
+<section class="page-section container-padding" id="contact">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
@@ -23,15 +24,21 @@
       </div>
     </div>
 
-    <div class="row contact-info">
+    <div class="row">
       <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
         <i class="fa fa-phone fa-3x mb-3 text-muted"></i>
         <div class="d-block clrPhone">{{data.number}}</div>
       </div>
-      <div class="col-lg-4 mr-auto text-center">
+      <div class="col-lg-4 mr-auto text-center mb-5">
         <i class="fa fa-envelope fa-3x mb-3 text-muted"></i>
         <a class="d-block" href="mailto:saikiranduddukuri03@gmail.com"
           >{{data.email}}</a
+        >
+      </div>
+      <div class="col-lg-4 mr-auto text-center">
+        <i class="fa fa-linkedin-square fa-3x mb-3 text-muted"></i>
+        <a class="d-block " target="_blank" href="https://www.linkedin.com/in/saikiran-duddukuri-a68bb8282/"
+          >Connect me </a
         >
       </div>
     </div>

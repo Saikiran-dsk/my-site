@@ -47,14 +47,22 @@
 }
 
 .stack-box {
-    padding-bottom: 50px;
+   padding: 10px;
     img{
-        width: 140px !important;
-        padding: 5px;
-        height: 140px;
+        width: 65px;
+        height: 65px;
         object-fit: contain;
+        margin-bottom: 1px !IMPORTANT;
+        padding: 11px;
     }
 }
 hr.divider{
-    border-color: #7cceed;
+    border-color: #7cceed ;
 }
+.justify-align{
+justify-content: center;
+}
+.container-padding{
+    background-color: #fff !important;
+}
+

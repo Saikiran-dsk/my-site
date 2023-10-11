@@ -8,4 +8,10 @@ import { userData } from 'src/app/project-json/data';
 })
 export class TimelineComponent {
   projectsData = userData.projects;
+  getClassForTimeline(){
+    if(1400 < window.innerWidth){
+      return 'timline-data'
+    }
+    return 'timline-data-mobile'
+  }
 }

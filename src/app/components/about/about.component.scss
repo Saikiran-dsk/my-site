@@ -1,7 +1,4 @@
-.bg-primary{
-    // background: black !important;
-    background: #7cceed !important;
-}
+
 a{
     color: black;
     .btn-xl{
@@ -11,4 +8,10 @@ a{
 }
 .headline{
     color: #fff;
+    line-height: 30px;
+    font-size: 17px;
+}
+.about-content{
+    text-align: -webkit-center;
+    width: 80%;
 }

@@ -18,4 +18,17 @@ export class ServicesComponent implements OnInit {
 getWidth(lang){
   return 'width:'+lang.percentage+'%;'
 }
+
+getClass(){
+  if(window.innerWidth < 992 && 772 < window.innerWidth){
+    return 'col-sm-4 col-4 pt-10px'
+  }else if(window.innerWidth < 772 && 600 < window.innerWidth){
+    return 'col-sm-3 col-3'
+  }else if(window.innerWidth < 600 && 420 < window.innerWidth){
+    return 'col-sm-4 col-4'
+  }if(window.innerWidth < 420){
+    return 'col-sm-6 col-6'
+  }
+     return 'col-md-1'
+}
 }

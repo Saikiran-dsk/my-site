@@ -5,8 +5,8 @@ button{
 a{
   color: white !important;
 }
-.changeCOlor{
-  background: #7cceed;
+.changeColor{
+  background: var(--main-header-color);
   transition: height 0.7s;
 }
 .collapsedBgColor{
@@ -14,14 +14,10 @@ a{
   background: white;
   color: black;
 }
-.navbar-nav{
-  .nav-item{
-    transition: all 0.5s;
-    text-align: center;
-    width: 100px;
-  }
-  .nav-item:hover{
-    // background: #70b2e1;
-    // border-radius: 50%;
-  }
+.nav-item{
+  border-bottom: 3px solid var(--main-header-color);
+}
+.nav-item:hover, .active{
+  border-bottom: 3px solid #fff;
+  transition: width 1s ease;
 }

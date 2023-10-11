@@ -23,8 +23,10 @@ a{
 .divider{
     border-color: white;
 }
-.contact-info{
-    .text-muted:hover{
-        color: #363131 !important;
-    }
+.resume-container{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 0;
 }
