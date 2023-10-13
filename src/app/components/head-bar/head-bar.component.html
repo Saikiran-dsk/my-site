@@ -2,17 +2,21 @@
 <section>
   <nav class="navbar stroke fixed-top navbar-expand-sm navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Saikiran Duddukuri</a>
+      <div class="heading">
+        <a class="navbar-brand" href="#">Saikiran Duddukuri</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon" (click)="showMobileMenu()"></span>
       </button>
+      </div>
       <div class="collapse navbar-collapse" id="collapsibleNavbar" [ngClass]="isMobileMenuOpened ? 'showMenu' : ''">
+       <div class="menu-list">
         <ul class="navbar-nav">
           <li class="nav-item" (click)="showMobileMenu()"><a class="nav-link" href="#about">about</a></li>
           <li class="nav-item" (click)="showMobileMenu()"><a class="nav-link" href="#skills">skills</a></li>
           <li class="nav-item" (click)="showMobileMenu()"><a class="nav-link" href="#experience">experience</a></li>
           <li class="nav-item" (click)="showMobileMenu()"><a class="nav-link" href="#contact">contact</a></li>  
         </ul>
+       </div>
       </div>
     </div>
   </nav>

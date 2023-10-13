@@ -13,3 +13,12 @@ a{
     text-align: -webkit-center;
     width: 80%;
 }
+.about-container{
+    padding: 40px 8px;
+    background: var(--background-color) !important;
+
+    @media only screen and (min-width: 992px) {
+        padding: 90px;
+        background: var(--background-color) !important;
+    }
+}

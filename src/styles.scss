@@ -30,7 +30,7 @@ hr.divider {
 }
 
 .container-padding {
-  padding: 50px 50px;
+  padding: 90px;
   background: var(--background-color) !important;
 }
 
@@ -41,12 +41,9 @@ hr.divider {
       height: 70px;
     }
   }
-
-  .container-timeline {
-    //padding: 5% 10% 10% 10%;
+  .btn-one{
+    width: 250px;
   }
-  
- 
 
 }
 
@@ -76,6 +73,13 @@ hr.divider {
     font-size: 12px;
     padding: 0px !important;
   }
+  #contact{
+    padding: 40px !important;
+  }
+  
+.container-padding {
+  padding: 30px;
+}
 }
 
 
@@ -86,9 +90,10 @@ hr.divider {
   justify-content: center;
   padding: 15px;
   border-radius: 40px;
-  width: 250px;
+  min-width: 150px;
   color: #fff;
   border-color:var(--main-header-color);
+  
 }
 .btn-one:hover{
   color: #212529;

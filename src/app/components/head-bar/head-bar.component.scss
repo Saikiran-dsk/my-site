@@ -24,10 +24,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 90px;
     @media (min-width:1023px){
         padding:0 20px;
     }
    background: var(--main-header-color);
+   position: fixed;
   }
   nav ul {
     list-style: none;
@@ -112,7 +114,29 @@
     .showMenu{
         display: block !important;
       }
+      .menu-list{
+        display: flex;
+        justify-content: center;
+        ul li{
+          display: inline-block;
+          margin: 10px;
+          background: #6cb1e9;
+          width: 135px;
+          border-radius: 12px;
+        }
+      }
    
+      nav{
+        padding: 20px 0px;
+        .container-fluid{
+          padding-top: 10px;
+        }
+        .heading{
+          justify-content: space-around;
+    display: flex;
+    width: 100%;
+        }
+      }
   }
   .nav-link{
     color: #fff !important;
