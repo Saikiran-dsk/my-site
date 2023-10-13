@@ -1,4 +1,5 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { userData } from 'src/app/project-json/data';
 
 @Component({
   selector: 'app-navbar',
@@ -8,6 +9,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
   changeHeaderColor: boolean = false;
   collapseTheHeader: boolean = false;
+  data= userData;
   constructor() { }
 
   ngOnInit() {

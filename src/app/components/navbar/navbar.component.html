@@ -5,7 +5,7 @@
 >
   <div class="container">
     <a class="navbar-brand" href="#"
-      >Saikiran Duddukuri</a
+      >{{data.name}}</a
     >
     <button id="collapse-button"
       class="navbar-toggler navbar-toggler-right"
@@ -16,9 +16,9 @@
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon"></span>
+    <i class="fa-thin fa-bars fa-xl"></i>
     </button>
-    <div class="navbar-collapse collapse" id="navbarResponsive">
+    <div class="stroke navbar-collapse collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto my-2 my-lg-0">
         <li class="nav-item">
           <a class="nav-link" href="#about" (click)="closeMenu()">About</a>

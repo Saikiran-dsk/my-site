@@ -15,9 +15,30 @@ a{
   color: black;
 }
 .nav-item{
-  border-bottom: 3px solid var(--main-header-color);
+  border-bottom: 3px solid transparent;;
 }
 .nav-item:hover, .active{
-  border-bottom: 3px solid #fff;
-  transition: width 1s ease;
+  // border-bottom: 3px solid #fff;
+  // transition: width 1s ease;
 } 
+
+.stroke ul li a{
+  position: relative;
+  display: block;;
+}
+.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+.stroke ul li a:hover:after {
+  width: 100%;
+}

@@ -12,7 +12,8 @@ a{
     color: white;
 }
 #contact{
-    background: #7cceed;
+    background: #0b4569!important;
+    padding: 20px 50px;
    h2,p{
     color: white !important;
    }
@@ -27,6 +28,40 @@ a{
     display: flex;
     color: black;
     justify-content: space-between;
-    font-size: 30px;
+    align-items: center;
+    font-size: 24px;
     padding: 0;
 }
+.resume-title{
+    @media (max-width:1023px){
+        margin-bottom: 30px!important;
+        h2{
+            font-size: 20px;
+        }
+    }
+}
+.footer-social{
+    margin:0 auto;
+    a{
+        text-decoration: none;
+    }
+}
+@media (max-width:1023px){
+    .footer-social-links{
+        margin-top:20px;
+        margin-bottom: 20px;
+        &:first-child{
+            margin-top: 0;
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width:1023px){
+    h2{
+        font-size: 20px;
+    }
+}
+

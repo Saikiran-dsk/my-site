@@ -200,5 +200,8 @@ hr.divider {
     padding: 0px 266px !important;
 }
 .timline-data-mobile{
-    padding: 30px !important;
+    @media (max-width:992px){
+        padding: 30px !important;
+    }
 }
+   

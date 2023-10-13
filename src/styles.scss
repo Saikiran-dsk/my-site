@@ -25,12 +25,12 @@ body {
 }
 
 hr.divider {
-  width: 150px;
+  width: 100px;
   border: 2px solid #fff;
 }
 
 .container-padding {
-  padding: 70px 60px;
+  padding: 50px 50px;
   background: var(--background-color) !important;
 }
 
@@ -43,7 +43,7 @@ hr.divider {
   }
 
   .container-timeline {
-    padding: 5% 10% 10% 10%;
+    //padding: 5% 10% 10% 10%;
   }
   
  
@@ -57,12 +57,13 @@ hr.divider {
   .resume-container{
     display: block !important;
     .resume-title{
-      font-size: 24px;
+      font-size: 16px;
       text-align: center;
     }
     .download-button{
       display: block;
       text-align: -webkit-center;
+      margin-left:5px;
     }
   }
   .resume-item{
@@ -79,18 +80,73 @@ hr.divider {
 
 
 .btn-one{
-  background-color: #44b3dd;
+  background-color:  var(--main-header-color);
   display: flex;
   vertical-align: middle;
   justify-content: center;
   padding: 15px;
   border-radius: 40px;
   width: 250px;
+  color: #fff;
+  border-color:var(--main-header-color);
 }
 .btn-one:hover{
   color: #212529;
-    border-color: #3d6a90;
+    border-color: var(--main-header-color);
     background: #fff !important;
-    box-shadow: 1px 1px 1px 1px #6ca7e0;
+   // box-shadow: 1px 1px 1px 1px #6ca7e0;
     transition: all 0.5s ease;
 }
+.navbar-toggler-right{
+  i{
+    color:#fff;
+    font-size:20px;
+    font-family: 'FontAwesome';
+    font-style: normal;
+  }
+}
+.text-blue{
+  color:#0b4569 !important;
+}
+.divider.dark{
+  border:2px solid #0b4569!important;
+}
+.fw-600{
+  font-weight: 600;
+}
+
+.ball{
+  animation: bounce 1s; 
+	animation-direction: down; 			
+	animation-iteration-count: infinite;
+}
+
+@keyframes bounce { 
+  from { 
+    transform: translate3d(0, 0, 0); 
+  } 
+  to { 
+    transform: translate3d(0, 10px, 0); 
+  } 
+} 
+/* Prefix Support */ 
+
+.ball { 
+  -webkit-animation-name: bounce; 
+  -webkit-animation-duration: 0.5s; 
+  -webkit-animation-direction: alternate; 
+  -webkit-animation-timing-function: cubic-bezier( 
+  .5, 0.05, 1, .5); 
+  -webkit-animation-iteration-count: infinite; 
+} 
+
+@-webkit-keyframes bounce { 
+  from { 
+    -webkit-transform: translate3d(0, 0, 0); 
+    transform: translate3d(0, 0, 0); 
+  } 
+  to { 
+    -webkit-transform: translate3d(0, 10px, 0); 
+    transform: translate3d(0, 200px, 0); 
+  } 
+} 

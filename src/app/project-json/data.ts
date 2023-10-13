@@ -1,5 +1,5 @@
 export const userData = {
- name:'Saikiran Duddukuri',
+ name:'Bootstrap Template',
  phone:'+91 8185059907',
  email:'duddukurisai63@gmail.com',
  quote:'GREAT THINGS NEVER COME FROM COMFORT ZONES.',
@@ -31,10 +31,10 @@ export const userData = {
     link:'assets/downloads/saikiran-duddukuri-ANGULARX-1.pdf',
     downloadName:"saikiran-duddukuri-ANGULARX-DEV.pdf",
     buttonText:" Download Now!",
-    title:"Let's Get In Touch!",
+    title:"Let's get in touch to start your next project with me",
     number:"+91 7702859907",
     email:"saikiranduddukuri03@gmail.com",
-    subTitle:" Ready to start your next project with me? I'm waiting for your response....",
+    //subTitle:"Ready to start your next project with me? I'm waiting for your response....",
     emailName:"saikiran.resume.pdf"
  },
  projects:[

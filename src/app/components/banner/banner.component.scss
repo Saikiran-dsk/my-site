@@ -1,103 +1,94 @@
 header.masthead {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to bottom,rgb(4 90 142 / 80%) 0%, rgb(45 48 50 / 80%) 100%), url("../../../assets/banner2.jpg");
-    // linear-gradient(to bottom, rgb(4 90 142 / 80%) 0%, rgb(45 48 50 / 80%) 100%), url(banner2.jpg)
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgb(4 90 142 / 80%) 0%, rgb(45 48 50 / 80%) 100%), url("../../../assets/banner2.jpg");
+  // linear-gradient(to bottom, rgb(4 90 142 / 80%) 0%, rgb(45 48 50 / 80%) 100%), url(banner2.jpg)
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead h1 {
+  font-size: 2.25rem;
+}
+
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
   }
+
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+
   header.masthead h1 {
-    font-size: 2.25rem;
+    font-size: 3rem;
   }
-  .divider{
-        border-color: #44b3dd;
-    }
+}
 
-  @media (min-width: 992px) {
-    header.masthead {
-      height: 100vh;
-      min-height: 40rem;
-      padding-top: 4.5rem;
-      padding-bottom: 0;
-    }
-    header.masthead p {
-      font-size: 1.15rem;
-    }
-    header.masthead h1 {
-      font-size: 3rem;
-    }
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
   }
-  @media (min-width: 1200px) {
-    header.masthead h1 {
-      font-size: 3.5rem;
-    }
-  }
+}
 
-  .pushable {
-    background: hsl(207.69deg 56.88% 76.99%);
-    border: none;
-    border-radius: 12px;
-    padding: 0;
-    cursor: pointer;
-    margin-top: 50px;
-  }
-  .front {
-    display: block;
-    padding: 12px 42px;
-    border-radius: 12px;
-    font-size: 1.25rem;
-    background: hsl(198.83deg 47.64% 52.18%);
-    color: white;
-    transform: translateY(-4px);
-  }
-  
-  .pushable:active .front {
-    transform: translateY(-2px);
-  }
-  
-  .pushable:focus:not(:focus-visible) {
-    outline: none;
-  }
-  
-  .front {
-    transition:
-      transform
-      600ms
-      cubic-bezier(.3, .7, .4, 1);
-  }
+.pushable {
+  background: hsl(207.69deg 56.88% 76.99%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  margin-top: 50px;
+}
 
-  .pushable:hover .front {
-    transform: translateY(-6px);
-    transition:
-      transform
-      250ms
-      cubic-bezier(.3, .7, .4, 1.5);
-  }
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(198.83deg 47.64% 52.18%);
+  color: white;
+  transform: translateY(-4px);
+}
 
-  .pushable:active .front {
-    transform: translateY(-2px);
-    transition: transform 34ms;
-  }
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+
+.pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.front {
+  transition:
+    transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.pushable:hover .front {
+  transform: translateY(-6px);
+  transition:
+    transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
 
 
-
-
-
-
-
-
-
-
-  $base: 0.6rem;
+$base: 0.6rem;
 
 .container {
- display: flex;
- justify-content: center;
- align-items: center;
- width: 100%;
- height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
 }
 
 .chevron {
@@ -119,39 +110,42 @@ header.masthead {
 
 .chevron:before,
 .chevron:after {
- content: '';
- position: absolute;
- top: 0;
- height: 100%;
- width: 50%;
- background: #fff;
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: #fff;
 }
 
 .chevron:before {
- left: 0;
- transform: skewY(30deg);
+  left: 0;
+  transform: skewY(30deg);
 }
 
 .chevron:after {
- right: 0;
- width: 50%;
- transform: skewY(-30deg);
+  right: 0;
+  width: 50%;
+  transform: skewY(-30deg);
 }
 
 @keyframes move-chevron {
- 25% {
-  opacity: 1;
-	}
- 33.3% {
-  opacity: 1;
-  transform: translateY($base * 3.8);
- }
- 66.6% {
-  opacity: 1;
-  transform: translateY($base * 5.2);
- }
- 100% {
-  opacity: 0;
-  transform: translateY($base * 8) scale(0.5);
- }
+  25% {
+    opacity: 1;
+  }
+
+  33.3% {
+    opacity: 1;
+    transform: translateY($base * 3.8);
+  }
+
+  66.6% {
+    opacity: 1;
+    transform: translateY($base * 5.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY($base * 8) scale(0.5);
+  }
 }
