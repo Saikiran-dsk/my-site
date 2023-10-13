@@ -5,7 +5,9 @@
       <div class="heading">
         <a class="navbar-brand" href="#">Saikiran Duddukuri</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon" (click)="showMobileMenu()"></span>
+        <span class="navbar-toggler-icon" (click)="showMobileMenu()" *ngIf="!isMobileMenuOpened"></span>
+        <span (click)="showMobileMenu()" *ngIf=" isMobileMenuOpened" class=""><i class="fa fa-times" aria-hidden="true" ></i>
+        </span>
       </button>
       </div>
       <div class="collapse navbar-collapse" id="collapsibleNavbar" [ngClass]="isMobileMenuOpened ? 'showMenu' : ''">
