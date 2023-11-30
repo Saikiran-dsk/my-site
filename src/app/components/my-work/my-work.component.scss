@@ -1,0 +1,32 @@
+section{
+    background: #fff !important;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    position: relative;
+}
+.items{
+    // width: 300px;
+    position: relative;
+    img{
+        width: 400px;
+        height: 200px;
+    }
+    img:hover{
+        filter: brightness(0.3);
+    }
+    p{
+        font-size: 25px;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        bottom: 0;
+        display: none;
+    }
+    
+}

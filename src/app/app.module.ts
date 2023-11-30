@@ -16,6 +16,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { TimelineComponent } from './components/timeline/timeline.component';
 import { HeadBarComponent } from './components/head-bar/head-bar.component';
+import { MyWorkComponent } from './components/my-work/my-work.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HeadBarComponent } from './components/head-bar/head-bar.component';
     FooterComponent,
     ExperienceComponent,
     TimelineComponent,
-    HeadBarComponent
+    HeadBarComponent,
+    MyWorkComponent
   ],
   imports: [
     BrowserModule,
