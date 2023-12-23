@@ -17,6 +17,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { TimelineComponent } from './components/timeline/timeline.component';
 import { HeadBarComponent } from './components/head-bar/head-bar.component';
 import { MyWorkComponent } from './components/my-work/my-work.component';
+import { MyBlogComponent } from './components/my-blog/my-blog.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { MyWorkComponent } from './components/my-work/my-work.component';
     ExperienceComponent,
     TimelineComponent,
     HeadBarComponent,
-    MyWorkComponent
+    MyWorkComponent,
+    MyBlogComponent
   ],
   imports: [
     BrowserModule,

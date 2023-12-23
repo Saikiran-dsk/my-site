@@ -35,12 +35,12 @@ hr.divider {
 }
 
 @media only screen and (min-width: 992px) {
-  .stack-box {
-    img {
-      width: 120px;
-      height: 70px;
-    }
-  }
+  // .stack-box {
+  //   img {
+  //     width: 120px;
+  //     height: 70px;
+  //   }
+  // }
   .btn-one{
     width: 250px;
   }
@@ -48,6 +48,9 @@ hr.divider {
 }
 
 @media only screen and (max-width: 992px) {
+  .stack-box:hover{
+    transform: none !important;
+  }
   .container-timeline {
     padding: 30px;
   }
@@ -155,3 +158,21 @@ hr.divider {
     transform: translate3d(0, 200px, 0); 
   } 
 } 
+
+
+@media only screen and (max-width: 420px) {
+  .cards{
+
+    .items{
+      width: 200px !important;
+      
+    }
+    img{
+      width: 100% !important;
+    }
+    p{
+      word-break: break-all;
+    }
+  }
+ 
+}

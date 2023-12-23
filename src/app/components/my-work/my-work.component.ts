@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-work.component.scss']
 })
 export class MyWorkComponent {
-
+  projects = [1,2,3];
+  openNewWindow(url){
+    
+  }
 }

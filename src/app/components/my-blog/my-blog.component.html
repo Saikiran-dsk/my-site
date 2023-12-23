@@ -1,0 +1,13 @@
+<section class="page-section container-padding" id="blog-posts" *ngIf="posts && posts.length">
+    <div class="">
+      <h2 class="text-center mt-0 text-blue fw-600">My Blog Posts</h2>
+      <hr class="divider dark my-4" />
+      <div class="cards">
+        <div class="items" *ngFor="let post of posts">
+            <a [href]="post.url" target="_blank"><img [src]="post.imageUrl" [alt]="post.title"></a>
+            <p>{{post.title}}</p>
+            <p class="link" (click)="openNewWindow(post.url)">Visit Here</p>
+        </div>     
+      </div>
+    </div>
+  </section>

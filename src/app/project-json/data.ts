@@ -3,7 +3,7 @@ export const userData = {
  phone:'+91 8185059907',
  email:'duddukurisai63@gmail.com',
  quote:'GREAT THINGS NEVER COME FROM COMFORT ZONES.',
- aboutMe:"Senior Front End/UI-Angular 2+ Developer with 4.8+ years of hands-on experience efficiently coding websites and applications using modern HTML, CSS, and JavaScript, AngularX Translate designs to front-end code, estimate time and determine developer requirements and specifications. Collaborate with creative and development teams on the execution of ideas and projects.",
+ aboutMe:"Experienced Senior Front End/UI Developer proficient in crafting websites and applications using contemporary HTML, CSS, and JavaScript frameworks such as Angular and React. Proficient in translating design concepts into functional front-end code, adept at estimating project timelines, and defining detailed developer specifications. Skilled in fostering collaboration between creative and development teams to execute projects seamlessly and bring innovative ideas to life.Senior Front End/UI-Angular 2+ Developer with 4.8+ years of hands-on experience efficiently coding websites and applications using modern HTML, CSS, and JavaScript, AngularX Translate designs to front-end code, estimate time and determine developer requirements and specifications. Collaborate with creative and development teams on the execution of ideas and projects.",
  stack:[
     {
         name:'Angular',
@@ -28,7 +28,7 @@ export const userData = {
  ] ,
  contactData:{
     titleResume:"You can download my resume here...!",
-    link:'assets/downloads/saikiran-duddukuri-ANGULARX-1.pdf',
+    link:'assets/downloads/saikiran-duddukuri.pdf',
     downloadName:"saikiran-duddukuri-ANGULARX-DEV.pdf",
     buttonText:" Download Now!",
     title:"Let's get in touch to start your next project with me",
