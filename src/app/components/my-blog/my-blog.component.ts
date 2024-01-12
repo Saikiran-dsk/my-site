@@ -82,11 +82,16 @@ export class MyBlogComponent {
      description:''
     },
 ]
-
+cardsCount=4;
+showAll = false;
 openNewWindow(url) {
 var link = document.createElement("a")
 link.href = url
 link.target = "_blank"
 link.click()
+}
+toggleCards(){
+  this.showAll = !this.showAll;
+  this.showAll ? this.cardsCount=this.posts.length : this.cardsCount=4
 }
 }

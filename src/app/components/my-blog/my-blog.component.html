@@ -3,11 +3,12 @@
       <h2 class="text-center mt-0 text-blue fw-600">My Blog Posts</h2>
       <hr class="divider dark my-4" />
       <div class="cards">
-        <div class="items" *ngFor="let post of posts">
+        <div class="items" *ngFor="let post of posts.slice(0, cardsCount)">
             <a [href]="post.url" target="_blank"><img [src]="post.imageUrl" [alt]="post.title"></a>
             <p>{{post.title}}</p>
             <p class="link" (click)="openNewWindow(post.url)">Visit Here</p>
         </div>     
       </div>
+      <div class="show-all"><a class="btn btn-light btn-lg btn-one" (click)="toggleCards()">{{!showAll ? 'View all' : 'View less'}}</a></div>
     </div>
   </section>

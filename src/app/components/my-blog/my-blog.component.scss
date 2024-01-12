@@ -19,6 +19,7 @@ section{
     padding: 20px;
     border-radius: 10px;
     margin: 20px 15px;
+   
     img{
         width: 300px;
         height: 120px;
@@ -53,4 +54,10 @@ section{
 
 @media  screen and (max-width:450px) {
     
+}
+.show-all{
+    display: flex;
+    justify-content: center;
+    top: 30px;
+    position: relative;
 }
