@@ -46,6 +46,7 @@ section{
     }
     &:hover{
         // transform: rotate(1deg)
+        transition: all 0.8s;
         transform: scale(1.1);
     }
 }

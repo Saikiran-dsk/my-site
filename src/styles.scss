@@ -176,3 +176,11 @@ hr.divider {
   }
  
 }
+@keyframes bottomToTop{
+  0% {bottom: -100px;}
+  100% {bottom: 0px;}
+}
+.lang-container,.about-content, .main-timeline2{
+  position: relative;
+  animation: bottomToTop 1.5s ease-in-out;
+}
